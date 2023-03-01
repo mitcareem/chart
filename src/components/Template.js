@@ -15,13 +15,14 @@ OrgChart.templates.myTemplate.img_0 =
 
 OrgChart.templates.myTemplate.field_0 =
     '<text style="font-size: 20px;" fill="#ffffff" x="110" y="40" text-anchor="start">{val}</text>';
-OrgChart.templates.myTemplate.field_1 = '<text style="font-size: 14px;" fill="#ffffff" x="350" y="30" text-anchor="end">{val}</text>';
+OrgChart.templates.myTemplate.field_1 =
+    '<text style="font-size: 14px;" fill="#ffffff" x="350" y="30" text-anchor="end">{val}</text>';
 OrgChart.templates.myTemplate.edge =
     '<path  stroke="#686868" stroke-width="1px" fill="none" edge-id="[{id}][{child-id}]" d="M{xa},{ya} C{xb},{yb} {xc},{yc} {xd},{yd}"/>';
 
 OrgChart.templates.myTemplate.plus =
     '<rect x="0" y="0" width="36" height="36" rx="12" ry="12" fill="#2E2E2E" stroke="#aeaeae" stroke-width="1"></rect>' +
-    '<text x="10" y="25.5" fill="yellow" style="font-size:24px";>&gt</text>';
+    '<text x="10" y="25.5" fill="yellow" font-size="24px" style="cursor: pointer;">&gt</text>';
 
 OrgChart.templates.myTemplate.minus =
     '<rect x="0" y="0" width="36" height="36" rx="12" ry="12" fill="#2E2E2E" stroke="#aeaeae" stroke-width="1"></rect>' +
@@ -36,12 +37,11 @@ OrgChart.templates.myTemplate.pointer =
     '<circle fill="rgb(255, 202, 40)" cx="120" cy="120" r="30" />' +
     "</g></g>";
 
-
 OrgChart.miniMap.colors = ["#FFCA28", "#F57C00", "#039be5", "#757575"];
 OrgChart.miniMap.selectorBackgroundColor = "#888888";
 OrgChart.miniMap.focusStroke = "#039BE5";
 OrgChart.miniMap.opacity = 0.8;
-OrgChart.miniMap.border = '2px solid #039BE5';
+OrgChart.miniMap.border = "2px solid #039BE5";
 OrgChart.miniMap.width = 200;
 OrgChart.miniMap.height = 100;
 OrgChart.miniMap.padding = 10;
