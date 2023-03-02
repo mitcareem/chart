@@ -15,40 +15,40 @@ export const data = [
         title: "Category",
         img: Logo,
     },
-    //Country
+    //Markets
     {
         id: 3,
         pid: 2,
         name: "APAC",
-        title: "Countries",
+        title: "Markets",
         img: Logo,
     },
     {
         id: 4,
         pid: 2,
         name: "America",
-        title: "Countries",
+        title: "Markets",
         img: Logo,
     },
     {
         id: 5,
         pid: 2,
         name: "MEA",
-        title: "Countries",
+        title: "Markets",
         img: Logo,
     },
     {
         id: 6,
         pid: 2,
         name: "ANZ",
-        title: "Countries",
+        title: "Markets",
         img: Logo,
     },
     {
         id: 7,
         pid: 2,
         name: "China",
-        title: "Countries",
+        title: "Markets",
         img: Logo,
     },
 
